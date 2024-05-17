@@ -1,0 +1,35 @@
+
+.nav{
+    background-color: wheat;
+    position: fixed;
+    width: 30%;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 50px;
+    padding: 20px 0px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav ul li {
+    list-style: none;
+    transform: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav ul li:hover {
+    transform: scale(1.05);
+}
+
+.visit {
+    text-shadow: -2px 0px 2px #CE5937, 2px 0px 2px #47CEFF;
+    font-weight: 900 !important;
+    color:blueviolet !important;
+}

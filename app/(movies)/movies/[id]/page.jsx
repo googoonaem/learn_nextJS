@@ -9,8 +9,7 @@ export const metadata = {
 export default async function MovieDetail({params:{id}}) {
     return (
         <div>
-            <h3>Movie Detail Page</h3>
-            <Suspense fallback={<h2>Loading movie info...</h2>}>
+            <Suspense fallback={<h2>Loading movie poster...</h2>}>
                 <MovieInfo id={id} />
             </Suspense>
             <Suspense fallback={<h2>Loading movie videos...</h2>}>
